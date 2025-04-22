@@ -1,0 +1,111 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+
+
+  
+
+*{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    padding: 0 119px;
+    margin: 0 auto ;
+
+}
+.header{
+    width: 1440px;
+   background-color: #C4B5A5;
+   padding-bottom: 215px;
+
+}  
+.nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 54px;
+}
+.nav ul{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+.nav ul li{
+    font-family: Poppins;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 100%;
+        letter-spacing: 0%;
+}
+.light , .dark{
+    width: 131.771484375px;
+        height: 41.34323501586914px;
+        
+        border-radius: 6px;
+}
+.light{
+    font-family: Poppins;
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        background-color: #FB982F;
+}
+.dark{
+font-family: Poppins;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    background-color: black;
+    color: white;
+}
+.header-content{
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-between;
+}
+.text h1{
+font-family: Poppins;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 155%;
+    letter-spacing: 0%;
+    color: black;
+}
+.img{
+width: 739px;
+    height: 432px;
+    top: 182px;
+    left: 702px;
+}
+.text p{
+    font-family: Poppins;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 200%;
+        letter-spacing: 0%;
+        color: black;
+}
+.img-2{
+    display: none;
+}
+.text-btn{
+    font-family: Poppins;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        background-color: #FB982F;
+        width: 195px;
+            height: 53px;
+            
+            border-radius: 40px;
+}
+.text{
+    display: flex;
+    flex-wrap: wrap;
+}
