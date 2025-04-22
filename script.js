@@ -42,7 +42,7 @@ function dark() {
      btn1.style.color = 'black';
       let btn2 = document.querySelector(".dark");
       btn2.style.backgroundColor = " black";
-     btn2.style.color = "black";
+     btn2.style.color = "white";
      let btn3 = document.querySelector(".text-btn");
      btn3.style.color = "black";
     
